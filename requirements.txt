@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+python-dotenv
+langchain-openai
+langchain-community
+faiss-cpu
+pydantic>=2.0.0
+openai
+pytesseract
+pillow
+PyPDF2 
+python-multipart
+langchain-openai
