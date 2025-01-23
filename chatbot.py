@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from backend_new import load_vector_store
 from langchain.chains import RetrievalQA
-from langchain_openai import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
 import random
 
 app = FastAPI()
